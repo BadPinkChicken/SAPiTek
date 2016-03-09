@@ -60,7 +60,7 @@ Les noms sont ultra Explicit mais bon.
   - `getModules()`
       Récupère les modules de la personne connectée
 
-  - `getProjets()`  
+  - `getProjets()`
       Récupère les projets de la personne connectée
 
   - `getNotes()`
