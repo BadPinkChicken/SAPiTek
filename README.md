@@ -55,7 +55,7 @@ Les fonctions appartiennent toute à la classe SAPiTek :
 (Toutes les fonctions retournent un Array la plupart du temps. Man PHP var_dump pour plus d'info sur leur contenu)
 Les noms sont ultra Explicit mais bon.
 
-##### Chaque appel ce fait avec `$Sapi->getNOM_DE_LA_FONCTION();`
+##### Chaque appel se fait avec `$Sapi->getNOM_DE_LA_FONCTION();`
 
   - `getModules()`
       Récupère les modules de la personne connectée
