@@ -78,8 +78,6 @@ class Request
     if ($this->req == "user")
       $local_url = $this->url."/user/".implode("/", $this->arg).$format;
 
-     echo $local_url;
-
     curl_setopt($this->ch, CURLOPT_URL, $local_url);
     curl_setopt($this->ch, CURLOPT_RETURNTRANSFER, true);
     curl_setopt($this->ch, CURLOPT_FOLLOWLOCATION, true);
