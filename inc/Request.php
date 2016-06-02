@@ -77,6 +77,8 @@ class Request
       $local_url = $this->url."/user/notification/".$this->req."/?format=json";
     if ($this->req == "user")
       $local_url = $this->url."/user/".implode("/", $this->arg).$format;
+    if ($this->req == "planning")
+      $local_url = $this->url."/planning/load?format=json";
 
     curl_setopt($this->ch, CURLOPT_URL, $local_url);
     curl_setopt($this->ch, CURLOPT_RETURNTRANSFER, true);

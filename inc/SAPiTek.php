@@ -79,6 +79,10 @@
     function getAlert() {
       return $this->getElem("alert");
     }
+    
+    function getPlanning() {
+      return $this->getElem("planning");
+    }
 
     function getUserInfos($login){
       $login = array($login);
